@@ -3,10 +3,10 @@ info_2 = float(input('Digite um número com vírgula, MAS SUBSTITUA A VÍRGULA P
 info_3 = str(input('Digite uma palavra: '))
 
 print(info_1)
-print('O tipo de', info_1, 'é', type(info_1))
+print(f'O tipo de {info_1} é {type(info_1)}')
 
 print(info_2)
-print('O tipo de', info_2, 'é', type(info_2))
+print(f'O tipo de {info_2} é {type(info_2)}')
 
 print(info_3)
-print('O tipo de', info_3, 'é', type(info_3))
+print(f'O tipo de {info_3} é {type(info_3)}')
