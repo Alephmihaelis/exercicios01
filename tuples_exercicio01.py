@@ -1,7 +1,7 @@
 minha_tupla = ('Vermelho', 'Laranja', 'Amarelo', 'Verde', 'Azul', 'Anil', 'Violeta')
 print(minha_tupla[3])
 
-# tupla_1[4] = "Marrom" # Este código gera um erro, porque as tuplas são imutáveis.
+# minha_tupla[4] = "Marrom" ----- Este código gera um erro, porque as tuplas são imutáveis.
 
 cores_invertidas = tuple(reversed(minha_tupla))
 print(cores_invertidas)
