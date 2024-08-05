@@ -9,4 +9,8 @@ consoantes = {'b', 'd', 'f'}
 print('O conjunto "consoantes" está contido no conjunto "letras"?', consoantes.issubset(letras))
 
 letcon = letras.union(consoantes)
-print(f' A união dos conjuntos "letras" e "consoantes" é {letcon}')
+print(f' A união dos conjuntos "letras" e "consoantes" é {letcon}') # O set não tem um método para ordenar os itens do conjunto.
+
+y = list(letcon) # Converte o conjunto para lista.
+y.sort() # Ordena a lista
+print(f' A união dos conjuntos, em ordem, é {y}') # Mostra a lista com seus itens ordenados.
