@@ -11,6 +11,6 @@ print('O conjunto "consoantes" está contido no conjunto "letras"?', consoantes.
 letcon = letras.union(consoantes)
 print(f' A união dos conjuntos "letras" e "consoantes" é {letcon}') # O set não tem um método para ordenar os itens do conjunto.
 
-y = list(letcon) # Converte o conjunto para lista.
+y = list(letcon) # Cria uma variável que armazena o conjunto convertido para lista.
 y.sort() # Ordena a lista
 print(f' A união dos conjuntos, em ordem, é {y}') # Mostra a lista com seus itens ordenados.
