@@ -45,6 +45,7 @@ print(f'O telefone do primeiro amigo, que é {primeiro_amigo}, é {agenda["João
 
 agenda['Pedro']['Email'] = 'emailpedro2@pedro'
 agenda['Maria']['Cidade'] = 'Roma'
-
+print('-'*20)
+print('Informações do terceiro amigo:')
 for chave, valor in agenda['Maria'].items():
     print(f'{chave}: {valor}')
