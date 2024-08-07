@@ -40,7 +40,7 @@ class Animal:
             return 'Erro ao mostrar subespécie.'
 
 minhoca = Animal()
-minhoca.setEspecie('           Taturana          ')
+minhoca.setEspecie('Taturana')
 print(minhoca.getEspecie())
 
 

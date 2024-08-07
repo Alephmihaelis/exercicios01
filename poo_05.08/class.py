@@ -3,7 +3,7 @@ class User():
 
     def __init__(self):
 
-        self.__id = int('')
+        self.__id = ''
         self.__name = ''
         self.__email = ''
         self.__password = ''
@@ -40,7 +40,6 @@ class User():
     
     def delete(self, id):
         pass
-
 
 
 class Student(User):
