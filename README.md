@@ -1,3 +1,3 @@
 # Python_exercicios_01
  Pacote 1 de exercícios de lógica e algoritmos com Python.
-Exercícios até a aula de 17.07
+Exercícios até a aula de 07/08
