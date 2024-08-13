@@ -1,36 +1,36 @@
 
-class User():
+class User:
 
     def __init__(self):
 
-        self.__id = ''
-        self.__name = ''
-        self.__email = ''
-        self.__password = ''
+        self.__id__ = ''
+        self.__name__ = ''
+        self.__email__ = ''
+        self.__password__ = ''
     
     def setId(self, id):
-        self.__id = id
+        self.__id__ = id
     
     def setName(self, name):
-        self.__name = name
+        self.__name__ = name
     
     def setEmail(self, email):
-        self.__email = email
+        self.__email__ = email
 
     def setPassword(self, password):
-        self.__password = password
+        self.__password__ = password
 
     def getId(self):
-        return self.__id
+        return self.__id__
 
     def getName(self):
-        return self.__name
+        return self.__name__
 
     def getEmail(self):
-        return self.__email
+        return self.__email__
 
     def getPassword(self):
-        return self.__password
+        return self.__password__
 
     def new(self, id, name):
         pass
@@ -47,9 +47,9 @@ class Student(User):
     def __init__(self):
         super().__init__()
 
-        self.__notas = ()
-        self.__presenca = ()
-        self.__curso = ''
+        self.__notas__ = ()
+        self.__presenca__ = ()
+        self.__curso__ = ''
 
     def setNotas(self, notas):
         pass
@@ -61,10 +61,10 @@ class Student(User):
         pass
 
     def getNotas(self):
-        return self.__notas
+        return self.__notas__
 
     def getPresenca(self):
-        return self.__presenca
+        return self.__presenca__
 
     def getCurso(self):
-        return self.__curso
+        return self.__curso__
